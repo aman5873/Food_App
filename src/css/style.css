@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/logo192.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(30 30 45);
+    color: #fbfbfb;
+    background-position: bottom 15px right -282px;
+    background-size: 30rem 30rem;
+    height: 100vh;
+}
+
+/*********   NavNar     *******************************/
+nav{
+    background-color: rgb(15 17 28);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav > h4{
+    margin-right: 19px;
+    font-weight: 200;
+    font-family: Noto Sans;
+    /* font-family: Roboto Slab; */
+    font-size: 1.2rem;
+    
+}
+
+.logo{
+    width: 40px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    color: aqua;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.navbar > h3{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: Roboto Slab;
+    font-size: 1.5rem;
+    color: rgb(60, 146, 146);
+}
+
+/************     Main      *************8*/
+.main{
+    margin: 3rem 0rem 0rem 2rem;
+    font-size: 1.4rem;
+    font-family: Noto Sans;
+}
+
+.main > ul >li{
+    font-family: Noto Sans;
+    /* font-family: Roboto Slab; */
+    font-size: 1rem;
+    padding: 8px 0px 0px 5px
+}
+
+.main-content{
+    margin-left: 35px;
+}
+
+.main-content > li::maker{
+    color: rgb(60, 146, 146);
+    font-size: 1rem;
+}
