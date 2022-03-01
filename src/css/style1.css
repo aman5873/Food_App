@@ -121,6 +121,40 @@ body{
     flex-direction: column;
     font-family: Roboto Slab;
     box-shadow: 0px 2.9px 7.4px rgb(0 0 0 / 20%);
+    position: relative; 
+}
+
+.card-offer{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgb(255 255 255 / 70%);
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: 900;
+}
+#card-heart{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 2rem;
+    border: none;
+    /* color:white; */
+}
+
+.heart-img{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 2rem;
+    /* color:white; */
+    width:5rem
+}
+
+.card-img{
+    width: 224px;
+    height: 217px;
 }
 
 .card:hover{
